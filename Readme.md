@@ -31,4 +31,4 @@ internal struct ContentView: View {
 ```
 
 ## Play
-Open [`/Playground/Playground.swift`](/Playground/Playground.swift)
+Open [`/Playground/VladimirCreator/Playground.swift`](/Playground/VladimirCreator/Playground.swift).
