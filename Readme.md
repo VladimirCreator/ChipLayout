@@ -10,7 +10,7 @@
 
 ## Usage
 ### Traditional
-1. Open `ChipLayout.swift`
+1. Open `/Sources/ChipLayout.swift`
 2. Press <kbd>⌘</kbd> + <kbd>A</kbd>
 3. Press <kbd>⌘</kbd> + <kbd>C</kbd>
 4. Press <kbd>⌘</kbd> + <kbd>V</kbd>
