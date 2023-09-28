@@ -9,6 +9,7 @@
 ## Preview
 
 ## Usage
+### Traditional
 1. Open `ChipLayout.swift`
 2. Press <kbd>⌘</kbd> + <kbd>A</kbd>
 3. Press <kbd>⌘</kbd> + <kbd>C</kbd>
