@@ -16,6 +16,9 @@
 4. Press <kbd>⌘</kbd> + <kbd>V</kbd>
 5. Use
 
+### The Swift Package Manager
+...
+
 ## Example
 ```swift
 import SwiftUI
