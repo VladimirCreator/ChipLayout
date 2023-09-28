@@ -4,6 +4,7 @@
 - [Preview](#preview)
 - [Usage](#usage)
 - [Example](#example)
+- [Play](#play)
 
 ## Preview
 
@@ -28,3 +29,6 @@ internal struct ContentView: View {
     }
 }
 ```
+
+## Play
+Open [`/Playground/Playground.swift`](/Playground/Playground.swift)
