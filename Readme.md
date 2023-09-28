@@ -7,6 +7,7 @@
 - [Play](#play)
 
 ## Preview
+![Preview](/Assets/RPReplay_Final1695936676.mov)
 
 ## Usage
 ### Traditional
