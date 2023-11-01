@@ -2,7 +2,7 @@
 
 ## Table of Contens
 - [Preview](#preview)
-- [Usage](#usage)
+- [Getting Started](#getting-tarted)
 - [Example](#example)
 - [Play](#play)
 - [License](#license)
@@ -10,7 +10,7 @@
 ## Preview
 ![Preview](/Assets/RPReplay_Final1695936676.mov)
 
-## Usage
+## Getting Started
 ### Traditional
 1. Open `Sources/ChipLayout.swift`
 2. Press <kbd>⌘</kbd> + <kbd>A</kbd> to select all
@@ -37,7 +37,7 @@ internal struct ContentView: View {
 ```
 
 ## Play
-Open [`/Playground/VladimirCreator/Playground.swift`](/Playground/VladimirCreator/Playground.swift).
+Open [`Playground/VladimirCreator/Playground.swift`](Playground/VladimirCreator/Playground.swift).
 
 ## License
 See [LICENSE](LICENSE).
