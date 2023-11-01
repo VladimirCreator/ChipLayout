@@ -5,6 +5,7 @@
 - [Usage](#usage)
 - [Example](#example)
 - [Play](#play)
+- [License](#license)
 
 ## Preview
 ![Preview](/Assets/RPReplay_Final1695936676.mov)
@@ -37,3 +38,6 @@ internal struct ContentView: View {
 
 ## Play
 Open [`/Playground/VladimirCreator/Playground.swift`](/Playground/VladimirCreator/Playground.swift).
+
+## License
+See [LICENSE](LICENSE).
