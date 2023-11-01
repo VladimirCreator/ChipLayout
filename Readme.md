@@ -1,0 +1,43 @@
+# Chip Layout
+
+## Table of Contens
+- [Preview](#preview)
+- [Getting Started](#getting-tarted)
+- [Example](#example)
+- [Play](#play)
+- [License](#license)
+
+## Preview
+![Preview](/Assets/RPReplay_Final1695936676.mov)
+
+## Getting Started
+### Traditional
+1. Open `Sources/ChipLayout.swift`
+2. Press <kbd>⌘</kbd> + <kbd>A</kbd> to select all
+3. Press <kbd>⌘</kbd> + <kbd>C</kbd> to copy all
+4. Press <kbd>⌘</kbd> + <kbd>V</kbd> to paste all
+5. Enjoy
+
+### The Swift Package Manager
+...
+
+## Example
+```swift
+import SwiftUI
+
+internal struct ContentView: View {
+    internal var body: some View {
+        ChipLayout {
+            ForEach(0..<256) {
+                Text("Chip \($0 + 1)")
+            }
+        }
+    }
+}
+```
+
+## Play
+Open [`Playground/VladimirCreator/Playground.swift`](Playground/VladimirCreator/Playground.swift).
+
+## License
+See [LICENSE](LICENSE).
