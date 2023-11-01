@@ -11,11 +11,11 @@
 
 ## Usage
 ### Traditional
-1. Open `/Sources/ChipLayout.swift`
-2. Press <kbd>⌘</kbd> + <kbd>A</kbd>
-3. Press <kbd>⌘</kbd> + <kbd>C</kbd>
-4. Press <kbd>⌘</kbd> + <kbd>V</kbd>
-5. Use
+1. Open `Sources/ChipLayout.swift`
+2. Press <kbd>⌘</kbd> + <kbd>A</kbd> to select all
+3. Press <kbd>⌘</kbd> + <kbd>C</kbd> to copy all
+4. Press <kbd>⌘</kbd> + <kbd>V</kbd> to paste all
+5. Enjoy
 
 ### The Swift Package Manager
 ...
