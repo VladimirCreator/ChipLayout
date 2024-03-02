@@ -2,13 +2,13 @@
    -> History Entry | iPadOS 17.0 | Swift Playgrounds | _ | ChipLayout.swift | Initially Modified: 03:29 PM Fri 08 Sep 2023
    -> History Entry | iPadOS 17.0 | Swift Playgrounds | _ | ChipLayout.swift |      Last Modified: 06:08 PM Fri 08 Sep 2023
 */
-
 import SwiftUI
 
-internal struct NePridumalNazvanieLayout: Layout {
+@available(iOS 13.0.0, *)
+public struct NePridumalNazvanieLayout: Layout {
     // This is code is not safe!
     // The Reason: It assumes that `proposal.width` is not `nil`.
-    internal func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) -> CGSize {
+    public func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) -> CGSize {
         //
         // Initially Modified: __:__ PM Fri 8 Sep 2023
         //      Last Modified: 06:08 PM Fri 8 Sep 2023
@@ -28,7 +28,7 @@ internal struct NePridumalNazvanieLayout: Layout {
         }
     }
 
-    internal func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) {
+    public func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) {
         var occupiedWidth: CGFloat = .zero
         var occupiedHeight: CGFloat = .zero
 
@@ -40,7 +40,7 @@ internal struct NePridumalNazvanieLayout: Layout {
 
             let x = bounds.origin.x + size.width / 2 + occupiedWidth
             let y = bounds.origin.y + size.height / 2 + occupiedHeight
-            
+
             occupiedWidth += size.width
             view.place(at: CGPoint(x: x, y: y), anchor: .center, proposal: proposal)
         }
