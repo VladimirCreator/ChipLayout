@@ -3,7 +3,6 @@
 
 ## Table of Contens
 
-- [Preview](#preview)
 - [Description](#description)
 - [Discussion](#discussion)
 - [License](#license)
@@ -15,11 +14,11 @@
 swift swift-package-manager swiftui
 
 ## Discussion
-The package consists of the only product:
+The package consists of the only Swift package and two Xcode projects:
 
 1. ChipLayout
-
-It also includes an Xcode project where you can experiment with it.
+1. Playground
+1. GitHub Cover
 
 ### Preview
 ![Preview](/Resources/RPReplay_Final1695936676.mov)
@@ -29,7 +28,7 @@ It also includes an Xcode project where you can experiment with it.
 
 #### Traditional
 
-1. Open `Sources/ChipLayout.swift`
+1. Open `/Sources/ChipLayout.swift`
 2. Press <kbd>⌘</kbd> + <kbd>A</kbd> to select all
 3. Press <kbd>⌘</kbd> + <kbd>C</kbd> to copy
 4. Press <kbd>⌘</kbd> + <kbd>V</kbd> to paste
