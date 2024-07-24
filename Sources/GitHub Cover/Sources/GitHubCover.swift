@@ -13,7 +13,11 @@
  * limitations under the License.
  */
 
+// #region -Dependencies
+
 import SwiftUI
+
+// #endregion
 
 @main
 fileprivate struct GitHubCover: App {

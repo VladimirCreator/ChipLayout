@@ -19,6 +19,8 @@
 
 ### PM
 
+1. 9:39 Create Tests/ChipLayout folder.
+1. 9:38 Create Tests/ folder.
 1. 8:56 Create .editorconfig file.
 
 # March 2024

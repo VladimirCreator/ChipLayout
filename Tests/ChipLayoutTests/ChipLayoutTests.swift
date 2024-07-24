@@ -15,15 +15,12 @@
 
 // #region -Dependencies
 
-import SwiftUI
+import XCTest
 
 // #endregion
 
-@main
-fileprivate struct Playground: App {
-	fileprivate var body: some View {
-		WindowGroup {
-			ContentView()
-		}
+final internal class ChipLayoutTests: XCTestCase {
+	func testStub() {
+		XCTAssertTrue(true)
 	}
 }

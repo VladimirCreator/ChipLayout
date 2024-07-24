@@ -13,7 +13,11 @@
  * limitations under the License.
  */
 
+// #region -Dependencies
+
 import SwiftUI
+
+// #endregion
 
 internal struct ContentView: View {
 	@State private var trigger: Bool = false
