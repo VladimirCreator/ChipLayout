@@ -1,0 +1,19 @@
+root = true
+
+# MARK: -Essentials
+[*]
+charset = utf-8
+
+indent_style = tab
+indent_size = 4
+
+quite_type = double
+
+trim_trailing_whitespace = true
+end_of_line = lf
+
+insert_final_newline = true
+
+# MARK: -YAML Ain’t Markup Language
+[*.{yml,yaml}]
+indent_style = space
