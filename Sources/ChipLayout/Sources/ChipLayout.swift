@@ -1,18 +1,23 @@
-/* Read Me
-   -> History Entry | iPadOS 17.0 | Swift Playgrounds | _ | ChipLayout.swift | Initially Modified: 03:29 PM Fri 08 Sep 2023
-   -> History Entry | iPadOS 17.0 | Swift Playgrounds | _ | ChipLayout.swift |      Last Modified: 06:08 PM Fri 08 Sep 2023
-*/
+/* Copyright 2024 Vladimir Leonidovich
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 import SwiftUI
 
 @available(iOS 13.0.0, *)
 public struct NePridumalNazvanieLayout: Layout {
-    // This is code is not safe!
-    // The Reason: It assumes that `proposal.width` is not `nil`.
     public func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) -> CGSize {
-        //
-        // Initially Modified: __:__ PM Fri 8 Sep 2023
-        //      Last Modified: 06:08 PM Fri 8 Sep 2023
-        //
         guard let availableWidth: CGFloat = proposal.width else { fatalError("`proposal.width` is `nil`") }
 
         var occupiedWidth: CGFloat = .zero
